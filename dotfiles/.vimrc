@@ -228,24 +228,24 @@ set termguicolors " turn on true colors
 set background=dark
 
 """"""""" ondark theme """""""""
-"let g:onedark_termcolors=256
-"let g:onedark_terminal_italics=1
-"colorscheme onedark
+let g:onedark_termcolors=256
+let g:onedark_terminal_italics=1
+colorscheme onedark
 
 """"""""" molokai theme """""""""
 "let g:molokai_original = 1
 let g:rehash256 = 1
-colorscheme molokai
+colorscheme molokai " Normal text is light white. True tone
 
 """"""""" gruvbox """""""""
-"colorscheme gruvbox
+"colorscheme gruvbox " True tone. Darker than molokai
 
 """"""""" dracula theme """""""""
-"colorscheme dracula
+"colorscheme dracula " Normal text is light white. Green color is too much.
 
 """"""""" solarized theme """""""""
 "let g:solarized_termcolors=256
 "let g:solarized_termtrans=0
-"colorscheme solarized
-"colorscheme solarized8
+"colorscheme solarized " number bar isn't eye-cautch
+"colorscheme solarized8 " background is too blur
 "call togglebg#map("<F5>")
